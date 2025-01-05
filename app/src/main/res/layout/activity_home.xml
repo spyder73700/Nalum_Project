@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:fitsSystemWindows="true">
+
+   <!-- Navigation Drawer (This is the side menu) -->
+   <com.google.android.material.navigation.NavigationView
+       android:id="@+id/nav_view"
+       android:layout_width="200dp"
+       android:layout_height="match_parent"
+       android:layout_gravity="start"
+       android:backgroundTint="@color/white"
+
+       app:menu="@menu/menu"
+       />
+
+   <!-- Main Content Area -->
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/homebackground"
+       tools:ignore="MissingClass">
+
+      <!-- ImageView -->
+
+      <!-- Toolbar -->
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          android:layout_marginTop="36dp"
+
+          android:background="@color/white"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+
+      <com.google.android.material.imageview.ShapeableImageView
+          android:id="@+id/userphoto"
+          android:layout_width="200sp"
+          android:layout_height="200sp"
+          android:layout_marginTop="52dp"
+          app:strokeColor="@color/white"
+          android:background="@color/white"
+          android:src="@drawable/image1"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.497"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/toolbar"
+          app:shapeAppearanceOverlay="@style/roundimageview"></com.google.android.material.imageview.ShapeableImageView>
+
+      <TextView
+          android:id="@+id/username_home"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:text="Sahil Yadav \n 2022-2026"
+          android:fontFamily="@font/muli_extrabold"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          app:layout_constraintEnd_toEndOf="@+id/userphoto"
+          app:layout_constraintStart_toStartOf="@+id/userphoto"
+          app:layout_constraintTop_toBottomOf="@+id/userphoto" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/rubik_vinyl"
+          android:text="Welcome to \n Nalum Portal"
+          android:textAlignment="center"
+          android:textSize="40dp"
+          android:textColor="@color/white"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/username_home"
+          app:layout_constraintVertical_bias="0.319"></TextView>
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

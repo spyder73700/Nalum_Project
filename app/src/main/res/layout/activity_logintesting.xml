@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logintesting">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b43737"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_login"
+                android:layout_marginTop="9dp"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+
+                android:fontFamily="@font/rubik_vinyl"
+
+                android:text="Login"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="50sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            >
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+              android:hint="@string/email"
+              app:boxStrokeColor="@color/black"
+              app:boxStrokeWidth="1.5dp"
+              app:boxStrokeWidthFocused="2dp"
+              app:hintTextColor="@color/black"
+              app:startIconDrawable="@drawable/icon_email"
+              app:startIconTint="@color/black"
+              app:endIconMode="clear_text"
+              app:endIconTint="@color/black"
+              >
+              <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/login_email"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/black"
+                  android:inputType="textEmailAddress">
+
+              </com.google.android.material.textfield.TextInputEditText>
+          </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:hint="Password"
+                android:layout_marginTop="15dp"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeWidthFocused="2dp"
+                app:hintTextColor="@color/black"
+                android:textColor="@color/black"
+                app:startIconDrawable="@drawable/icon_password"
+                app:startIconTint="@color/black"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/black"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:text="Login"
+            ></Button>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="New User? Register Now"
+                ></Button>
+
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="25dp"
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="404dp"
+            android:layout_height="266dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:lottie_autoPlay="true"
+
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

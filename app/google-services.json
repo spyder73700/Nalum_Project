@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436341869480",
+    "project_id": "nalumdatabase",
+    "storage_bucket": "nalumdatabase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436341869480:android:229a8724bf9d68d32cab9d",
+        "android_client_info": {
+          "package_name": "com.example.nalum"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBDShWHkZ6M5EAtn99rgbb-KS23M2JRlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
