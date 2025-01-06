@@ -1,77 +1,56 @@
-# Nalum NSUT
+# Nalum - College Alumni Portal
 
-Nalum NSUT is an advanced attendance management application designed for students and administrators at NSUT. Built using **Kotlin** and **Firebase**, this app simplifies attendance tracking and class management with an intuitive user interface.
+Nalum is a dedicated portal designed to connect college alumni, providing a centralized platform to build and maintain networks, share updates, and access important resources.
 
----
+## Features
 
-## 🚀 Features
+- **Alumni Profiles:** Create and manage alumni profiles.
+- **Networking Opportunities:** Connect with fellow alumni and grow your professional network.
+- **Event Management:** Stay updated about upcoming reunions and events.
+- **Job Board:** Explore job opportunities shared by alumni and companies.
+- **Resource Sharing:** Share and access useful resources, such as articles, videos, and documents.
 
-- **User Authentication:** Secure login and registration using Firebase Authentication.
-- **Class Management:** Create, view, and manage multiple classes with ease.
-- **Attendance Tracking:** Record and view attendance data for each class.
-- **Admin Features:** Admins can create new classes and monitor attendance reports.
-- **Firebase Integration:** Seamlessly store and retrieve data using Firebase Realtime Database.
-- **Profile Management:** Display user profile with name, photo, and additional details.
+## Tech Stack
 
----
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** Firebase Authentication
+- **Cloud Storage:** Firebase Cloud Database
 
-## 🛠️ Technologies Used
-
-- **Frontend:** Kotlin
-- **Backend:** Firebase Authentication & Cloud Database
-- **IDE:** Android Studio
-
----
-
-## 📦 Installation
+## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Nalum_nsut.git
+   git clone https://github.com/sahilyadav925080/Nalum_nsut.git
    ```
-2. Open the project in **Android Studio**.
-3. Sync Gradle files and install dependencies.
-4. Connect to Firebase by adding your **google-services.json** file in the app directory.
-5. Build and run the project on your emulator or Android device.
+2. Navigate to the project directory:
+   ```bash
+   cd Nalum_nsut
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm start
+   ```
+
+## Contribution Guidelines
+
+We welcome contributions! Feel free to fork the repository and submit pull requests.
+
+## Contact
+
+For any queries or suggestions, please contact:
+
+- **Email:** [sahilyadav925080@gmail.com](mailto\:sahilyadav925080@gmail.com)
+- Linkedin:[https://www.linkedin.com/in/sahil-yadav-602b11249/](https://www.linkedin.com/in/sahil-yadav-602b11249/)
+
+
 
 ---
 
-## 📄 Configuration
-
-### Git Setup (if not already configured):
-```bash
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-```
-
----
-
-## 💡 Future Enhancements
-
-- **Notifications:** Send reminders for classes and updates.
-- **Export Reports:** Generate and download attendance reports.
-- **Offline Support:** Allow attendance marking without internet access.
-- **Analytics Dashboard:** Display attendance statistics in graphical format.
-
----
-
-## 🤝 Contributing
-Contributions are welcome! If you want to contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m 'Add feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
-
----
-
-## 📧 Contact
-For any queries or feedback, feel free to reach out:
-- **Email:** sahilyadav@example.com
-- **LinkedIn:** [linkedin.com/in/sahil-yadav](https://www.linkedin.com/in/sahil-yadav-602b11249/)
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
+Let's make alumni connections stronger with Nalum!
 
