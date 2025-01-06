@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2366c114-c974-4406-9fa1-ad904ddd5553)# Nalum - Alumni Connection App
+# Nalum - Alumni Connection App
 
 Nalum is an alumni connection platform designed to help colleges and universities maintain strong bonds with their alumni. It facilitates networking, event coordination, and data management for both alumni and administrators.
 
