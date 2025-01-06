@@ -37,7 +37,8 @@ Nalum is an alumni connection platform designed to help colleges and universitie
 
 ## Screenshots
 
-![splashscreen](https://github.com/user-attachments/assets/5f42d84e-68f3-4a76-88f9-32b91ce037c4)
+
+![image](https://github.com/user-attachments/assets/29710c64-0c43-41e7-b7a4-9c9b6b5e78d4)
 ![image](https://github.com/user-attachments/assets/919aaa82-375a-42ed-b20c-cab32e0262f5)
 ![image](https://github.com/user-attachments/assets/465761f3-427b-4b3b-8319-0431dbdff2f6)
 ![image](https://github.com/user-attachments/assets/ccc98d06-b43e-498e-b99e-a0f2fbf3cdf9)
